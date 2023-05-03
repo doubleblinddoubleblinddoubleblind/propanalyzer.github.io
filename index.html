@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>ASTTrans</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup" style="text-align:center;">
+      <h1><b>Leveraging Code Search by Learning Non-terminal AST Nodes Representation via Neural Machine Translation</b></h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a style="color:#FF9900; background-color:#FFFFFF;" href="index.html">Introduction</a></li>
+<!--         <li><a href="approach.html">Approach</a></li>
+        <li><a href="demoCodeSearch.html">Demo - Code Search</a></li>
+        <li><a href="demoCodeSum.html">Demo - Code Summarization</a></li> -->
+        <!-- <li><a href="evaluation.html">Evaluation</a></li> -->
+      </ul>
+    </nav>
+  </header>
+</div>
+<!-- content -->
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <section id="slider">
+    <p>Neural Machine Translation (NMT) is widely applied in software engineering tasks. The effectiveness of NMT for code retrieval relies on the ability to learn from the sequence of tokens in the source language to the sequence of tokens in the target language. While NMT performs well in pseudocode-to-code translation, it failed to translate from natural language query to source code in practical datasets of real-world code documentation. The main reason is the complexity of the source code, which caused NMT to fail to learn effectively on sequences of code tokens. In this work, we propose ASTTrans Representation, a tailored representation of an AST using a subset of non-terminal nodes with the same depth. We build ASTTrans, a query-to-ASTTrans Representation model using NMT to improve the code search task of state-of-the-art embedding models GraphCodeBERT and UniXcoder. Our evaluation shows that NMT can learn sequences of ASTTrans Representation more accurately than sequences of code tokens. ASTTrans achieves 3.08 percent Mean Reciprocal Rank (MRR) improvement for TLCodesum dataset and 1.06 percent MRR improvement on average for all datasets of CAT benchmark. </p>
+    <p>The replication package of ASTTrans is avaiable at <a href="https://tinyurl.com/bdfar8zy">this site</a>.</p>
+    </section>
+  </div>
+</div>
+<!-- footer -->
+<div class="wrapper row3">
+  <footer id="footer" class="clear">
+    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain Name</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+  </footer>
+</div>
+</body>
+</html>
